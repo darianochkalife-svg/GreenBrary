@@ -1,0 +1,126 @@
+header {
+    background-color: #CFDD9D;
+    padding: 10px;
+}
+header h1 {
+    text-align: center;
+    font-family: Fascinate Inline;
+    color: #202808;
+    font-size: 50px;
+}
+footer {
+    margin-top:0;
+    margin-bottom: 0;
+    padding: 0;
+    height: 20px;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: #CFDD9D;
+}
+footer p {
+    text-align: center;
+    color: #202808;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+  padding: 20px;
+  position: relative;
+  align-items: end;
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+nav ul li a {
+ color: white;
+ text-decoration: none;
+}
+nav ul li a:hover {
+    text-shadow: 0px 0px 30px #9E0232;
+    text-transform: uppercase;
+}
+table {
+   width: 30%;
+   margin: auto;
+   border-collapse: collapse;
+   background-color: #CFDD9D ;
+}
+th, td {
+    border: 1px solid black;
+    padding: 0;    
+    text-align: center;
+    font-size: 19px;
+}
+table img {
+    height: 150px;
+    width: 200px;
+    border: #202808 dotted 2px;
+}
+table a {
+    text-decoration: none;
+    color: black;
+}
+table abbr {
+    text-decoration: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.backgroundnav {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/91/Front_view_of_a_wooden_footbridge_over_a_lagoon%2C_trees_and_mountains_in_Vang_Vieng%2C_Laos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2 {
+    text-align: center;
+}
+.abouttrees h2 {
+    font-size: 40px;
+    font-family: Ultra;
+}
+.abouttrees p {
+    font-size: 19px;
+    margin: 0px 25px 25px 25px;
+    text-align: justify;
+}
+.abouttrees a {
+    text-decoration: none;
+    color: #CFDD9D;
+    -webkit-text-stroke: 0.5px black;
+}
+.abouttrees a:hover {
+    text-transform: uppercase;
+}
+
+.tree {
+    margin: 25px;
+    font-size: 19px;
+    text-align: justify;
+    padding: 10px;
+}
+.tree img {
+   width: 40%;
+   height: 40%;
+   padding: 10px;
+   border-radius: 30px;
+}
+.tree h2 {
+    font-size: 30px;
+    padding-bottom: 0;
+    padding: 50px;
+}
+.tree a {
+    text-decoration: none;
+    color: #CFDD9D;
+    -webkit-text-stroke: 0.5px black;
+}
+.tree a:hover {
+    text-transform: uppercase;
+}

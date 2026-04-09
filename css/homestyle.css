@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #F8CAE4;
+    padding: 10px;
+}
+header h1 {
+    text-align: center;
+    font-family: Fascinate Inline;
+    color: #9E0232;
+    font-size: 50px;
+}
+footer {
+    margin-top:0;
+    margin-bottom: 0;
+    padding: 30px;
+    height: 20px;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: #9E0232;
+}
+footer p {
+    text-align: center;
+    color: #F8CAE4;
+}
+.background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/1b/Natural_background_of_blooming_Petunia_flowers_%2854954688042%29.jpg);
+    filter: blur(6px);
+    z-index: -1;
+}
+.card {
+    width: 95%;
+    height: 600px;
+    margin:40px auto;
+    padding: 30px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.428);
+    color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+nav ul li a {
+ color: white;
+ text-decoration: none;
+}
+nav ul li a:hover {
+    text-shadow: 0px 0px 30px #9E0232;
+    text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.maintext h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.maintext p {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 20px 40px;
+  border: none;
+  border-radius: 20px;
+  background: #F8CAE4;
+  cursor: pointer;
+  font-size: 30px;
+}
+button:hover {
+    color: #9E0232;
+}
+
+.image img {
+  width: 600px;
+  border-radius: 20px;
+}
+.color h2, .color h1 {
+    text-align: center;
+    padding: 0;
+    margin: 20px;
+    color: #9E0232;
+}
+.color p {
+  color: black;
+  font-size: 19px;
+  line-height: 1.6;
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+.quote {
+    margin: 10px;
+}
+.text ul li{
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+.text a {
+  text-decoration: none;
+  color: black;
+}
+.text a:hover {
+  text-shadow: 0px 0px 30px #ff89ad;
+  color: #AEB719;
+  text-transform: uppercase;
+}
