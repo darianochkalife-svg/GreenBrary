@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Fill The Form</title>
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="icon" href="images/favicon.ico" type="image/gif" sizes="16x16">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+   </style>
+</head>
+<body>
+    <header>
+        <img style="float: left;" src="images/1775750340438.png" alt="logo" width="70px"> 
+        <h1>GreenBrary</h1>
+    </header>
+    <main>
+    <section class="form">
+        <h3>Please enter the following information:</h3>
+        <form action="http:/foo.com" method="put">
+        <label for="first_name">First name:<span class="required">*</span></label>
+        <input type="text" name="first_name" id="first_name" autofocus required><br>
+         <label for="last_name">Last name:<span class="required">*</span></label>
+        <input type="text" name="last_name" id="last_name" autofocus required><br>
+
+         <label for="email">Email:<span class="required">*</span></label>
+        <input type="email" name="email" id="email" required placeholder="johndoe@example.com"><br>
+         <label for="gender">Gender:</label>
+              <input type="radio" id="gender" name="gender" value="male"> Male
+              <input type="radio" id="gender" name="gender" value="female"> Female
+              <input type="radio" id="gender" name="gender" value="other" checked> Other <br>
+         <label for="internet">Heard of us:</label>
+         <fieldset>
+            <input type="checkbox" name="internet" id="internet" checked> Internet <br>
+            <input type="checkbox" class="margin1" name="paper" id="hear"> Newspaper <br>
+            <input type="checkbox" class="margin1" name="friend" id="hear2"> Friend <br>
+            <input type="checkbox" class="margin1" name="add" id="hear3"> Others <br>
+         </fieldset> <br>
+
+         <label for="message">Query: </label>
+         <textarea cols="40" rows="6" id="message" name="message" placeholder="Your message must be less than 200 characters" data-maxlength="200"></textarea>
+        <input type="submit" name="submit" id="button" value="Submit">
+        <input type="reset" name="reset" id="reset">
+    </form>
+    <p style="margin-left: 138px;"><span class="required">*</span><em>indicates a required field</em></p>
+    </section>
+</main>
+  <footer> 
+        <nav>
+                   <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="flowers.html">Flowers</a></li>
+                      <li><a href="trees.html">Trees</a></li>
+                      <li><a href="#top">Go to Page Top</a></li>
+                   </ul>
+            </nav>
+        <p>&copy; Copyright Plants Company 2026</p>
+        </footer>
+</body>
+</html>

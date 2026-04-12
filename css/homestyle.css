@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+p {
+  padding: 25px;
+}
+header {
+    background-color: #202808;
+    padding: 10px;
+}
+header h1 {
+    text-align: center;
+    font-family: Fascinate Inline;
+    color: #CFDD9D;
+    font-size: 50px;
+}
+footer {
+    margin-top:0;
+    margin-bottom: 0;
+    padding: 30px;
+    height: 20px;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: #CFDD9D;
+}
+footer p {
+    text-align: center;
+    color: #202808;
+    padding: 0;
+}
+.background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/c6/White_Flowers_3.jpg);  
+   filter: blur(6px);
+    z-index: -1;
+}
+.card {
+    width: 95%;
+    height: 600px;
+    margin:40px auto;
+    padding: 30px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.428);
+    color: #202808;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  font-weight: bold;
+}
+nav ul li a {
+ color: #202808;
+ text-decoration: none;
+}
+nav ul li a:hover {
+    text-shadow: 0px 0px 30px #202808;
+    text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.maintext h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #202808;
+}
+
+.maintext p {
+  margin-bottom: 20px;
+  color: #202808;
+}
+
+button {
+  padding: 20px 40px;
+  border: none;
+  border-radius: 20px;
+  background: #202808;
+  color: #779e00;
+  cursor: pointer;
+  font-size: 30px;
+}
+button:hover {
+    color: #CFDD9D;
+}
+
+.image img {
+  width: 600px;
+  border-radius: 20px;
+}
+.color h2, .color h1 {
+    text-align: center;
+    padding: 0;
+    margin: 20px;
+    color: #CFDD9D;
+}
+.color p {
+  color: #CFDD9D;
+  font-size: 19px;
+  line-height: 1.6;
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+.quote {
+    margin: 10px;
+}
+.text ul li{
+  text-align: start;
+  padding: 10px;
+  text-decoration: none;
+  color: #CFDD9D;
+}
+.text a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.text a:hover {
+  text-shadow: 0px 0px 30px #04300a;
+  color: #AEB719;
+  text-transform: uppercase;
+}
+ h3 {
+  text-align: start; 
+  color: #CFDD9D; 
+  padding: 15px; 
+  font-size: 30px;
+}
+.youtube {
+   border: #CFDD9D dashed;
+   width: 660px;
+   height: 415px;
+}
